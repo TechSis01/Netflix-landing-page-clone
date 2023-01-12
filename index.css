@@ -1,0 +1,214 @@
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+/* HERO SECTION */
+.hero-section{
+    background-image: url(./Images/landing-backdrop-image-min.png);
+    padding:1.5em 1em 9em 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    width:20%;
+    justify-content: space-around;
+}
+.language-container2{
+    display: flex;
+    align-items: center;
+    border: 1px solid #AAAAAA;
+    width:35%;
+    color:#fff;
+    justify-content: space-around;
+    border-radius: 4px;
+    padding:0em 0.3em;
+}
+.sign-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: red;
+    padding:1em 1.8em;
+    border-radius: 4px;
+}
+.heading-section{
+    width:50%;
+    margin:5em auto;
+    color: #fff;
+    text-align: center;
+}
+.heading-section h1{
+    font-size: 6.4rem;
+}
+.heading-section p:nth-child(1){
+    font-size: 2.6rem;
+}
+.heading-section p:nth-child(2){
+    font-size: 1.9rem;
+}
+.get-started-container{
+    background-color: #fff;
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.get-started-container button{
+    background-color: red;
+    outline: none;
+    border: none;
+    padding:1em 0.8em;
+    color:#fff;
+}
+.get-started-container input{
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:1.1em;
+}
+::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    padding-left:1.1em;
+}
+hr{
+    height: 5px;
+    background-color:#222222;
+    margin:0;
+    border:none;
+    /* margin:em 0em; */
+}
+
+/* MOVIES SECTION */
+.movies{
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+    margin:0 auto;
+    position: relative;
+    padding-top:1em;
+    padding-bottom:2em;
+}
+.movies-text h2{
+    font-size: 4.5rem;;
+    width:85%;
+    margin:0 auto;
+   
+}
+.movies-text p{
+    width:85%;
+    font-size: 2.0rem;
+    margin:0 auto;
+    line-height: 3.5rem;
+}
+.indian-girls{
+    position:absolute;
+    top:85px;
+    left:620px;
+    z-index: -1;
+}
+.stranger-things-container{
+    border:1px solid #fff;
+    border-radius: 12px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom:30px;
+    left:20px;
+    padding:0.2em 0.2em;
+    background-color: #000;
+    width:40%;
+}
+#download{
+    color:blue;
+}
+.indian-man{
+    position: absolute;
+    top:35px;
+    right:112px;
+    z-index: -1;
+}
+/* FAQ */
+.faq{
+    color:#fff;
+    padding: 3em 0em;
+}
+.faq h2{
+    text-align: center;
+}
+.faq-container{
+    width:60%;
+    margin:0 auto;
+}
+.faq-container div{
+    background-color: #303030;
+    padding:0.3em 0.5em;
+    margin-top:0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-container div:hover{
+    background-color: #AAAAAA;
+    cursor: pointer;
+}
+#ready-to-watch{
+    text-align: center;
+    margin-top: 3em;
+}
+.get-started-container2{
+    background-color: #fff;
+    display: flex;
+    width:50%;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.get-started-container2 button{
+    background-color: red;
+    outline: none;
+    border: none;
+    padding:1em 0.8em;
+    color:#fff;
+}
+.get-started-container2 input{
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:1.1em;
+}
+::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    padding-left:1.1em;
+}
+
+/* FOOTER */
+footer{
+    background-color:rgba(0,0,0,0.75);
+    color:#757575;
+    padding:1.5em 15em;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.language-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #333333;
+    width:20%;
+    justify-content: space-around;
+}

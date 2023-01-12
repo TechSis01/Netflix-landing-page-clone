@@ -1,0 +1,115 @@
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:1.6rem;
+    background-image: url(./Images/Login-backdrop-image-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    margin-top:1.5em;
+    margin-left:1.5em;
+}
+/* SIGN IN FORM  */
+form{
+    width:25%;
+    margin:2em auto;
+    padding:2em;
+    color:white;
+    background-color:rgba(0,0,0,0.75);
+    border-radius: 4px;
+}
+.sign-in-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+::placeholder{
+    font-family: 'Open Sans', sans-serif;
+}
+.sign-in-form input{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:2em;
+    padding:1em 1em;
+    background-color:#333333;
+    outline:none;
+    border:none;
+    border-radius: 4px;
+    color:#B3B3B3;
+}
+
+.sign-link{
+    text-decoration: none;
+    background-color:#E50914;
+    color:#fff;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 4px;
+    padding:1em 1em;
+}
+
+
+/* REMEMBER ME CONTAINER */
+.remember-container{
+    display:flex;
+    justify-content: space-between;
+    color:#B3B3B3;
+}
+.checkbox-container{
+    display:flex;
+}
+
+/* FACEBOOK CONTAINER */
+.facebook-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:55%;
+}
+.fa-facebook-f{
+    background-color: blue;
+    padding:0.3em;
+    border-radius: 4px;
+}
+.facebook-container a{
+    text-decoration: none;
+    color:#737373;
+
+}
+/* END OF FORM */
+.new{
+    color:#737373;
+    font-weight: bold;
+}
+.new-2{
+    color:#737373;
+}
+.new-span{
+    color:#fff;
+    font-weight: bold;
+}
+.new-span-2{
+    color: blue;
+}
+/* FOOTER */
+footer{
+    background-color:rgba(0,0,0,0.75);
+    color:#757575;
+    padding:1.5em 15em;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.language-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #333333;
+    width:20%;
+    justify-content: space-around;
+}
