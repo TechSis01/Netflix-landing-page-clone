@@ -212,3 +212,10 @@ footer{
     width:20%;
     justify-content: space-around;
 }
+
+/* MEDIA QUERY */
+@media screen and (width <= 1348px){
+    .movies{
+        flex-direction: column;
+    }
+} 
