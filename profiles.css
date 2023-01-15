@@ -1,0 +1,49 @@
+html{
+    font-size:62.5%
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 1.6rem;
+    background-color:rgba(0,0,0,1);
+    font-family: 'Open Sans', sans-serif;
+}
+#logo{
+    margin:1.5em 0em 0em 3em;
+}
+.profile-pic{
+    display: flex;
+    width:80%;
+    margin:0 auto;
+    justify-content: space-around;
+    align-items: center;
+    color:#6D6D6EB2;
+    text-align: center;
+    cursor:pointer;
+}
+.profile-section h1{
+    text-align: center;
+    color: #fff;
+    margin-top:3em;
+    padding-bottom: 1em;
+    font-size:4.0rem;
+}
+.add-user-icon{
+    padding:2.5em;
+}
+#bottom-btn{
+    color: #808080;
+    text-align: center;
+    border:1px solid #808080;
+    width:20%;
+    margin:3em auto;
+    padding:1em 0em;
+}
+#bottom-btn:hover{
+    background-color:#808080;
+    color:white;
+}
+.profile-pic a{
+    text-decoration: none;
+    color:#6D6D6EB2;
+}
